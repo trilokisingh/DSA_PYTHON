@@ -1,0 +1,8 @@
+# Write a Python program to remove duplicates from a list.
+
+List=[1,2,3,3,4,85,45,2,84,9,41]
+
+def removeduplicate(list):
+    item=list[0]
+    for i in list:
+        if item 
