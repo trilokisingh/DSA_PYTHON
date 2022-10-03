@@ -1,4 +1,6 @@
-L=[2,2,3,4,4,5,5,5]
+#find the number which occurence in list is odd times 
+
+L=[10,20,20,30,30,10,10]
 
 def N_appreance(list):
     count=None
@@ -6,9 +8,10 @@ def N_appreance(list):
         count=list.count(i)
         if count%2!=0:
             count=i
-        return count
+            
+            break 
 
-    return None
+    return count
 
 print(N_appreance(L))             
 
